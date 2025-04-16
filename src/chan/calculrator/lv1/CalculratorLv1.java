@@ -37,8 +37,12 @@ public class CalculratorLv1 {
             long indexMul = indexOne * indexTwo;
             System.out.println("계산 결과: " + indexOne + " " + operationSign + " " + indexTwo + " = " + indexMul);
         } else if (operationSign.equals("/")) {
-            double indexDiv = (double)indexOne / (double)indexTwo;
-            System.out.println("계산 결과: " + indexOne + " " + operationSign + " " + indexTwo + " = " + indexDiv);
+            if (indexTwo == 0) {
+                System.out.println("나눗셈 연산 시, 두 번째 정수에 0을 입력할 수 없습니다.");
+            } else {
+                double indexDiv = (double) indexOne / (double) indexTwo;
+                System.out.println("계산 결과: " + indexOne + " " + operationSign + " " + indexTwo + " = " + indexDiv);
+            }
         } else {
             System.out.println("사칙연산의 기호가 아닙니다.");
         }
