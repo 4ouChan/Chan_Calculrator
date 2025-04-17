@@ -11,8 +11,8 @@ public class CalculratorLv1 {
 
         long indexOne; // 첫 번째 정수를 담을 변수
         long indexTwo; // 두 번째 정수를 담을 변수
-        String operationSign; // 사칙연산 기호를 담을 변수
         String checkIndex; // 정수를 문자열로 변환하여 음수인지 확인할 수 있게 도와주는 변수
+        String operationSign; // 사칙연산 기호를 담을 변수
         String exit; // 종료 관련 문자를 입력받을 변수
 
 
@@ -70,6 +70,7 @@ public class CalculratorLv1 {
                 }
             } else {
                 System.out.println("사칙연산의 기호가 아닙니다.");
+                break;
             }
 
             // 입력받은 문자가 exit라면 프로그램을 종료하고, exit가 아니라면 계속 실행하는 코드
