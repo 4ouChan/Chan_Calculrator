@@ -25,7 +25,7 @@ public class CalculratorLv1 {
             // 정수를 문자열로 변환
             checkIndex = Long.toString(indexOne);
 
-            // 입력값의 첫 글자가 '-'가=일 경우 메시지 출력 후 반복문 종료
+            // 입력값의 첫 글자가 '-'일 경우 메시지 출력 후 반복문 종료
             if (checkIndex.charAt(0) == '-') {
                 System.out.println("양의 정수만 입력할 수 있습니다.");
                 break;
