@@ -25,7 +25,7 @@ public class CalculratorLv1 {
             // indexOne의 값이 0보다 작을경우 메시지 출력 후 반복문 종료
             if (indexOne < 0) {
                 System.out.println("양의 정수만 입력할 수 있습니다.");
-                break;
+                continue;
             }
 
             // 두 번째 정수를 입력받는 코드
@@ -36,7 +36,7 @@ public class CalculratorLv1 {
             // indexOne의 값이 0보다 작을경우 메시지 출력 후 반복문 종료
             if (indexTwo < 0) {
                 System.out.println("양의 정수만 입력할 수 있습니다.");
-                break;
+                continue;
             }
 
 
@@ -55,13 +55,13 @@ public class CalculratorLv1 {
             } else if (operator == '/') {
                 if (indexTwo == 0) {
                     System.out.println("나눗셈 연산 시, 두 번째 정수에 0을 입력할 수 없습니다.");
-                    break;
+                    continue;
                 } else {
                     calcResult = indexOne / indexTwo;
                 }
             } else {
                 System.out.println("사칙연산의 기호가 아닙니다.");
-                break;
+                continue;
             }
 
             System.out.println("계산 결과: " + indexOne + " " + operator + " " + indexTwo + " = " + calcResult);
