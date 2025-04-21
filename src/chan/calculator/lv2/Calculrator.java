@@ -6,7 +6,7 @@ public class Calculrator {
     // 계산 결과를 담을 컬렉션 필드
     private ArrayList<Long> Result = new ArrayList<>();
 
-
+    // 계산 결과를 담을 변수
     private long calcResult;
 
     // 연산을 수행하는 기능
