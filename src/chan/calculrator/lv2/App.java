@@ -1,4 +1,4 @@
-package chan.calculator.lv2;
+package chan.calculrator.lv2;
 
 import java.util.ArrayList;
 import java.util.Scanner;
