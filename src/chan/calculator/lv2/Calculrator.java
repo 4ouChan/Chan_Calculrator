@@ -12,21 +12,12 @@ public class Calculrator {
     // 연산을 수행하는 기능
     public void calculate(long indexOne, long indexTwo, char operator) {
            switch (operator) {
-               case '+' :
-                   calcResult = (indexOne + indexTwo);
-                   break;
-               case '-' :
-                   calcResult = (indexOne - indexTwo);
-                   break;
-               case '*' :
-                   calcResult = (indexOne * indexTwo);
-                   break;
-               case '/' :
-                   calcResult = (indexOne / indexTwo);
-                   break;
+               case '+' -> calcResult = (indexOne + indexTwo);
+               case '-' -> calcResult = (indexOne - indexTwo);
+               case '*' -> calcResult = (indexOne * indexTwo);
+               case '/' -> calcResult = (indexOne / indexTwo);
            }
     }
-
 
      // 캡슐화한 컬렉션에 접근할 수 있는 게터
      ArrayList<Long> getResult() {
@@ -39,15 +30,13 @@ public class Calculrator {
         return this.Result;
      }
 
-
     // 제일 처음 입력된 값을 삭제하는 기능
      public void removeResult() {
         Result.remove(0);
      }
-
 }
 
-// lv2 끝
+//lv2
 
 
 
