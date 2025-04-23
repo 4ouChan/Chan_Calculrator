@@ -21,7 +21,7 @@ public class App {
         // 반복문
         while (true) {
 
-           // 첫 번째 양의 정수 입력
+            // 첫 번째 양의 정수 입력
             System.out.print("첫 번째 정수를 입력하세요: ");
             indexOne = scanner.nextLong();
             if (indexOne < 0) {
@@ -56,7 +56,7 @@ public class App {
             calculrator.setResult();
 
             // .get(.size() -1 을 이용해 방금 계산한 결과를 출력
-            System.out.println("계산 결과: " + indexOne + " " + operator + " " + indexTwo + " = " + calcResult.get(calcResult.size() -1) );
+            System.out.println("계산 결과: " + indexOne + " " + operator + " " + indexTwo + " = " + calcResult.get(calcResult.size() - 1));
 
             // 현재 컬렉션에 저장된 값을 모두 출력
             System.out.println(calcResult);
@@ -77,4 +77,4 @@ public class App {
     }
 }
 
-//lv2
+//lv2 끝
