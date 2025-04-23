@@ -49,7 +49,7 @@ public class App {
                 continue;
             }
 
-            // 입력 받은 값을 calculate 메서드로 전송
+            // calculate 메서드를 불러오며, 매개변수로 입력받은 값 할당
             calculrator.calculate(indexOne, indexTwo, operator);
 
             // 연산이 끝나고 컬렉션에 저장한 값을 호출
