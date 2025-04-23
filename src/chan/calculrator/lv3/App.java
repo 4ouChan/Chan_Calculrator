@@ -1,4 +1,5 @@
 package chan.calculrator.lv3;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -12,19 +13,16 @@ public class App {
         String userText; //종료 및 삭제를 위한 문자열을 입력받을 변수
         OperatorType operatorType = null;
 
-
         // Calculrator 클래스를 이용할 수 있게 인스턴스화
         ArithmeticCalculrator calculrator = new ArithmeticCalculrator();
 
         // 게터를 이용해 컬렉션에 접근
         ArrayList<Long> calcResult = calculrator.getResult();
 
-
-
         // 반복문
         while (true) {
 
-           // 첫 번째 양의 정수 입력
+            // 첫 번째 양의 정수 입력
             System.out.print("첫 번째 정수를 입력하세요: ");
             indexOne = scanner.nextLong();
             if (indexOne < 0) {
@@ -65,7 +63,7 @@ public class App {
             calculrator.setResult();
 
             // .get(.size() -1) 을 이용해 방금 계산한 결과를 출력
-            System.out.println("계산 결과: " + indexOne + " " + operator + " " + indexTwo + " = " + calcResult.get(calcResult.size() -1) );
+            System.out.println("계산 결과: " + indexOne + " " + operator + " " + indexTwo + " = " + calcResult.get(calcResult.size() - 1));
 
             // 현재 컬렉션에 저장된 값을 모두 출력
             System.out.println(calcResult);
