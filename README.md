@@ -1,5 +1,5 @@
 Lv1.
-![lv1 다이어그램](https://github.com/user-attachments/assets/a0a8c8ec-7086-41aa-8b86-b6c295aeb370)
+<img src="![lv1 다이어그램](https://github.com/user-attachments/assets/a0a8c8ec-7086-41aa-8b86-b6c295aeb370)" width="300"/>
 
 
 Lv2.
